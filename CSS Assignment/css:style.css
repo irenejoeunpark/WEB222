@@ -1,0 +1,378 @@
+/*images for portfolio grid*/
+#pic1{
+  background-image: url("../image/CARAVAN.jpg");
+}
+#pic2{
+   background-image: url("../image/CLIFFS.jpg");
+}
+#pic3{
+   background-image: url("../image/DOCK.jpg");
+}
+#pic4{
+   background-image: url("../image/SOLITUDE.jpg");
+}
+#pic5{
+   background-image: url("../image/MORNINGFOG2.jpg");
+}
+#pic6{
+   background-image: url("../image/DIVE.jpg");
+}
+#pic7{
+   background-image: url("../image/DRYFIRE.jpg");
+}
+#pic8{
+   background-image: url("../image/MORNINGFOG1.jpg");
+}
+#pic9{
+   background-image: url("../image/AUTUMN.jpg");
+}
+#pic10{
+   background-image: url("../image/YATCH.jpg");
+}
+#pic11{
+   background-image: url("../image/MINIONS.jpg");
+}
+#pic12{
+   background-image: url("../image/WOODS.jpg");
+}
+#pic13{
+   background-image: url("../image/VALLEYFOG.jpg");
+}
+#pic14{
+   background-image: url("../image/SQUAD.jpg");
+}
+#pic15{
+  background-image: url("../image/RISK.jpg");
+}
+#pic16{
+  background-image: url("../image/LINEUP.jpg");
+}
+/*footer*/
+footer{
+  color:#C0C0C0;
+  padding: 0vw 5vw 5vw 5vw;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 10pt;
+  font-weight: 10;
+}
+footer a:link{
+  color:black;
+  text-decoration:underline;
+}
+footer a:visited{
+  color:black;
+  text-decoration:underline;
+}
+footer a:hover{
+  color:black;
+  text-decoration:underline;
+}
+/*desktop view*/
+@media only screen and (min-width: 961px){
+  /*top menu navigator*/
+  .menu > ul > li{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 9pt;
+    font-weight:100;
+    padding-left: 2vw;
+    padding-top: 5vw;
+    letter-spacing:1px;
+    list-style: none;
+  }
+  /*picture names (appears when hover)*/
+  .grid-item > p{
+    display:none;
+    font-weight:250;
+  }
+  /*website name on the top*/
+  #name{
+    font-family: "brandon-grotesque",helvetica, sans-serif;
+    font-weight:900;
+    font-size: 2.1rem;
+    color: black;
+    letter-spacing:2px;
+    vertical-align:middle;
+  }
+  /*current page!*/
+  .menu #current{
+    color:black;
+  }
+
+  body{
+  padding-top:3vw;
+  }
+/*mobile view only!!!*/
+  #m-name, .m-menu{
+    display:none;
+  }
+  /*hyperlinks(navigators) on the top menu*/
+  a:link{
+    text-decoration: none;
+    color: #C0C0C0;
+  }
+  a:visited {
+    text-decoration: none;
+    color: #C0C0C0;
+  }
+  a:hover{
+    text-decoration: none;
+    color: black;
+  }
+  .menu > ul > li{
+    display: inline
+  }
+  /*portfolio display - grid*/
+  .portfolio{
+    display: grid;
+    background-color: #FFFFFF;
+    padding: 4vw;
+    grid-template-columns: repeat(30 1fr);
+    grid-template-rows: 12fr 10.5fr 10.5fr 12fr 10.5fr 20fr 12fr 10.5fr 12fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    height: 330vw;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 15vw;
+    font-family: "Arial Black", "Lucida Grande", sans-serif;
+    color: #FFFFFF;
+    font-size: 9pt;
+    background-size: cover;
+    text-align: center;
+  }
+  /*grod specifications for each item*/
+  #pic1{
+    grid-column: 1 / span 18;
+  }
+  #pic2{
+    grid-column: 19 / span 12;
+  }
+  #pic3{
+    grid-column: 1 / span 13;
+  }
+  #pic4{
+    grid-column: 14 / span 17;
+  }
+  #pic5{
+    grid-column: 1 / span 13;
+  }
+  #pic6{
+    grid-column: 14 / span 17;
+  }
+  #pic7{
+    grid-column: 1 / span 12;
+  }
+  #pic8{
+    grid-column: 13 / span 18;
+  }
+  #pic9{
+    grid-column: 1 / span 17;
+  }
+  #pic10{
+    grid-column: 18 / span 13;
+  }
+  #pic11{
+    grid-column: 1 / span 30;
+  }
+  #pic12{
+    grid-column: 1 / span 12;
+  }
+  #pic13{
+    grid-column: 13 / span 18;
+  }
+  #pic14{
+    grid-column: 1 / span 14;
+  }
+  #pic15{
+    grid-column: 15 / span 16;
+  }
+  #pic16{
+    grid-column: 1 / span 18;
+  }
+/*hover action*/
+  .grid-item:hover { 
+    background-color: rgba(0, 0, 0, 0.521);
+    background-blend-mode: darken;
+  }
+  .grid-item:hover > p{ 
+    display:inline;
+  }
+}
+/*ipad or tablet view*/
+@media only screen and (min-width:401px)and (max-width: 960px){
+  /*top menu on top*/
+  .menu > ul > li{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 9pt;
+    font-weight:100;
+    padding-left: 2vw;
+    padding-top: 5vw;
+    letter-spacing:1px;
+    list-style: none;
+  }
+  /*picture name when hover*/
+  .grid-item > p{
+    display:none;
+    font-weight:250;
+  }
+  /*website name on top*/
+  #name{
+    font-family: "brandon-grotesque",helvetica, sans-serif;
+    font-weight:900;
+    font-size: 2.1rem;
+    color: black;
+    letter-spacing:2px;
+    vertical-align:middle;
+  }
+  /*current menu*/
+  .menu #current{
+    color:black;
+  }
+
+  body{
+    padding-top:3vw;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;;
+    color: #FFFFFF;
+    font-size: 9pt;
+    font-weight:bold;
+    background-size: cover;
+    margin-bottom: 5vw;
+    text-align: center;
+  }
+  /*those are only for mobile view, so I need to hide these*/
+  #m-name, .m-menu{
+    display:none;
+  }
+  a:link{
+    text-decoration: none;
+    color: #C0C0C0;
+  }
+  a:visited{
+    text-decoration: none;
+    color: #C0C0C0;
+  } 
+  a:hover{
+    text-decoration: none;
+    color: black;
+  }
+  .menu > ul > li{
+    display: inline
+  }
+  /* when hover*/
+  .grid-item:hover
+  { 
+    background-color: rgba(0, 0, 0, 0.521);
+    background-size:cover;
+    background-blend-mode: darken;
+  }
+  .grid-item:hover > p{ 
+   display:inline;
+  }
+  /*display in blocks!*/
+  .portfolio{
+    background-color: #FFFFFF;
+    padding: 2vw;
+    display: block;
+    margin-block-end: 5vw;
+    height: 800vw;
+  }
+  /*resize the background picture sizes to cover each block*/
+  #pic1, #pic2, #pic3, #pic4, #pic5, #pic6, #pic7, #pic8, #pic9, #pic10, #pic11, #pic12, #pic13, #pic14, #pic15, #pic16
+  {
+    background-size: cover;
+  }
+}
+/*mobile view*/
+@media only screen and (max-width:400px){
+  /*no text ! */
+  .grid-item > p{
+    display:none;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 33vw;
+    background-size: cover;
+    margin-bottom: 5vw;
+  }
+  .menu{
+    display:none;
+  }
+  div.top{
+    width:100%;
+  }
+  .m-menu {
+    display: inline-block;
+  }
+  /*top menu button ! */
+button {
+    padding: 3vw 40vw 3vw 40vw;
+    text-decoration: none;
+    display: inline-block;
+    color: darkgray;
+    font-size: 1rem;
+    border: none;
+    width:100%;
+    text-align: center;
+    background-color:#FFFFFF;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+  a{
+    text-decoration:none;
+    text-align:center;
+  }
+  /*top menus*/
+   .menu-content {
+    display: none;
+    background-color:lightgray;
+    padding:2vw 1vw 2vw 1vw;
+    line-height:200%;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  .menu-content a {
+    color: darkgray;
+    text-decoration: none;
+    display: block;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  /*dropdown menu when hover*/
+  .m-menu:hover .menu-content {
+    display: block;
+  }
+  /*display websitename differently in mobile - it is below the menu*/
+  #m-name{
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: black;
+    align-items: center;
+    padding: 1vw 20vw 1vw 30vw;
+  }
+  /*block view*/
+  .portfolio{
+    background-color: #FFFFFF;
+    padding: 5vw;
+    display: block;
+    margin-block-end: 5vw;
+    height: 800vw;
+  }
+  /*resize the picture to fit block*/
+  #pic1, #pic2, #pic3, #pic4, #pic5, #pic6, #pic7, #pic8, #pic9, #pic10, #pic11, #pic12, #pic13, #pic14, #pic15, #pic16
+  {
+    background-size: cover;
+  }
+  /*menu color change when hover*/
+  a:hover{
+    color:rgb(99, 97, 97);
+  }
+  /*indicate current page darker*/
+  #m-current{
+     color:rgb(99, 97, 97);
+  }
+}

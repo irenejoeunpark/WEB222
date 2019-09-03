@@ -1,0 +1,277 @@
+/*mobile view */
+@media only screen and (max-width:400px){
+  footer{
+    color:#C0C0C0;
+    padding: 0vw 5vw 5vw 5vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 10pt;
+    font-weight: 10;
+  }
+  footer a:link, #page a:link{
+    color:black;
+    text-decoration:underline;
+  }
+  footer a:visited, #page a:visited{
+    color:black;
+    text-decoration:underline;
+  }
+  #name{
+    font-family: "brandon-grotesque",helvetica, sans-serif;
+    font-weight:900;
+    font-size: 2.1rem;
+    color: black;
+    letter-spacing:2px;
+    vertical-align:middle;
+  }
+  p{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 8pt;
+    line-height: 150%;
+    color: gray;
+  }
+  body:not(div.menu){
+    padding: 5vw 5vw 5vw 5vw;
+  }
+  img{
+    width: 90vw;
+    height: 55vw;
+  }
+  .menu{
+    display: none
+  }
+  div.top{
+    width:90%;
+  }
+  .m-menu {
+    display: inline-block;
+  }
+  button {
+    padding: 3vw 40vw 3vw 40vw;
+    text-decoration: none;
+    display: inline-block;
+    color: darkgray;
+    font-size: 1rem;
+    border: none;
+    width:100%;
+    text-align: center;
+    background-color:#FFFFFF;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  a{
+    text-decoration:none;
+    text-align:center;
+  }
+  .menu-content {
+    display: none;
+    background-color:lightgray;
+    padding:2vw 1vw 2vw 1vw;
+    line-height:200%;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  .menu-content a {
+    color: darkgray;
+    text-decoration: none;
+    display: block;
+  }
+  /*dropdown menu bar on top!*/
+  .m-menu:hover .menu-content {
+    display: block;
+  }
+ #m-name{
+    font-family: "brandon-grotesque", Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: black;
+    align-items: center;
+    padding: 1vw 20vw 1vw 30vw;
+  }
+  #page{
+    align-items: center;
+    display: block;
+    padding: 5vw;
+    width:90%;
+  }
+  #picture{
+    padding: 5vw;
+    margin:auto;
+  } 
+  a:hover{
+    color:rgb(99, 97, 97);;
+  }
+  #m-current{
+     color:rgb(99, 97, 97);
+  }
+  h1{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color:black;
+    font-size: 18pt;
+  }
+}
+/*tablet view*/
+@media only screen and (min-width:401px)and (max-width: 960px){
+  *{
+    align-content:center;
+  }
+  footer{
+    color:#C0C0C0;
+    padding: 0vw 5vw 5vw 5vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 10pt;
+    font-weight: 10;
+  }
+  footer a:link,#page a:link{
+    color:black;
+    text-decoration:underline;
+  }
+  footer a:visited, #page a:visited{
+    color:black;
+    text-decoration:underline;
+  }
+  a:link{
+    text-decoration: none;
+    color: #C0C0C0;
+  }
+  a:visited{
+    text-decoration: none;
+    color: #C0C0C0;
+  }
+  a:hover{
+    text-decoration: none;
+    color: black;
+  }
+  .menu #current{
+    color:black;
+  }
+  #name{
+    font-family: "brandon-grotesque",helvetica, sans-serif;
+    font-weight:900;
+    font-size: 2.1rem;
+    color: black;
+    letter-spacing:2px;
+    vertical-align:middle;
+  }
+  h1{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color:black;
+    font-size: 18pt;
+  }
+  p{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 10pt;
+    line-height: 150%;
+    color: gray;
+    letter-spacing: 1px;
+    font-weight: light;
+  }
+
+  img{
+    width: 90vw;
+    height: 45vw;
+    padding: 5vw 5vw 1vw 5vw;
+  }
+  .menu > ul > li
+  {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 9pt;
+    font-weight:100;
+    padding-left: 2vw;
+    padding-top: 5vw;
+    letter-spacing:1px;
+    list-style: none;
+    display: inline;
+  }
+  /*only for mobile!*/
+  #m-name, .m-menu{
+    display:none;
+  }
+  body{
+    padding-top:3vw;
+  }
+  #page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 5vw 5vw 5vw;
+  }
+}
+/*desktop view*/
+@media only screen and (min-width:961px){
+  footer{
+    color:#C0C0C0;
+    padding: 0vw 5vw 5vw 5vw;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 10pt;
+    font-weight: 10;
+  }
+  footer a:link,#page a:link{
+    color:black;
+    text-decoration:underline;
+  }
+  footer a:visited, #page a:visited{
+    color:black;
+    text-decoration:underline;
+  }
+  a:link{
+    text-decoration: none;
+    color: #C0C0C0;
+  }
+  a:visited{
+    text-decoration: none;
+    color: #C0C0C0;
+  }
+  a:hover{
+    text-decoration: none;
+    color: black;
+  }
+  .menu #current{
+    color:black;
+  }
+  #name{
+    font-family: "brandon-grotesque",helvetica, sans-serif;
+    font-weight:900;
+    font-size: 2.1rem;
+    color: black;
+    letter-spacing:2px;
+    vertical-align:middle;
+  }
+  h1{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color:black;
+    font-size: 18pt;
+  }
+  p
+  {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 10pt;
+    line-height: 150%;
+    color: gray;
+    letter-spacing: 1px;
+    font-weight: light;
+  }
+  img{
+    width: 75vw;
+    height: 45vw;
+    padding: 5vw 5vw 1vw 5vw;
+  }
+  .menu > ul > li{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 9pt;
+    font-weight:100;
+    padding-left: 2vw;
+    padding-top: 5vw;
+    letter-spacing:1px;
+    list-style: none;
+    display: inline;
+  }
+  #m-name, .m-menu{
+    display:none;
+  }
+  body{
+    padding-top:3vw;
+  }
+  #page{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 0 5vw 5vw 5vw;
+  }
+}
+
